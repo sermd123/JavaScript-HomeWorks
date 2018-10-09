@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var list = "";
+        var n = 0;
+
+        for (n = 0; n <= 5; n++) {
+            var product = prompt("Enter Product name:?");
+            list += product;
+            n++;
+
+            if (n < 4) {
+                list += ',';
+            } else {
+                list += '!!!';
+            }
+
+        }
+        document.write('You want to buy:');
+        document.write(list + '<br>')
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
